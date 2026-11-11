@@ -1,0 +1,18 @@
+# ===== 页面元素定位（www.douyin.com/chat，2026-10-19 实测） =====
+# 正常不用动；抖音改版导致失败时，重跑 probe.py 后按新结构改这里。
+# 注意：core.py 里已直接内置这些选择器，这里只作备忘/将来抽取用。
+
+# 会话列表里的一条会话
+conversation_item: "[data-e2e='conversation-item']"
+
+# 会话昵称（在会话条目内部）
+conversation_title: ".conversationConversationItemtitle"
+
+# 火花天数标识（列表项和聊天窗头部都有）
+streak_text: ".commonStreaknormalText"
+
+# 消息输入框
+input_box: "div[contenteditable='true']"
+
+# 列表顶部搜索框
+search_box: "input[placeholder='搜索']"

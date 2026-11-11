@@ -1,0 +1,39 @@
+# ===== 私有数据：绝对不要提交 =====
+# 好友名单、登录态、发送记录、日志、截图
+config.yaml
+browser-profile/
+data/
+logs/
+screenshots/
+.runtime/
+
+# 探测工具导出的真实页面快照（可能含昵称、头像、cookie）
+probe_page.html
+probe_report.txt
+*_probe.json
+_streak*.json
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# ===== 打包 / 发布产物 =====
+dist/
+build/
+release/
+*.exe
+*.spec
+*.zip
+
+# 注意：assets/spark.ico 是源码资产，不要被 *.ico 规则误伤（这条规则故意不加）
+
+# ===== 编辑器 / 系统 =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
